@@ -33,9 +33,6 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const total = good + neutral + bad;
-  const score = good - bad;
-
   return (
     <div>
       <div>
